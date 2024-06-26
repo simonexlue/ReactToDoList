@@ -1,0 +1,33 @@
+.add-item-container {
+    display: flex;
+    align-items: center;
+    min-width: 95vh;
+    min-height: 50px;
+    box-sizing: border-box;
+}
+
+.textbox {
+    width: 90%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.image-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.image {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+}
