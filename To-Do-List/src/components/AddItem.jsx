@@ -2,13 +2,20 @@ import '../components/AddItem.css'
 import addImage from '../assets/add.png'
 import {useState} from 'react'
 
-function AddItem() {
+function AddItem(props) {
 
     const [todo, setToDo] = useState('')
 
     function addItem(event) {
         event.preventDefault();
-        console.log(`value: ${todo}`)
+
+        if(todo != "") {
+            props.addToDoItem(todo);
+        } else {
+            alert("Cannot be empty")
+        }
+        
+        setToDo('');
     }
 
     return (

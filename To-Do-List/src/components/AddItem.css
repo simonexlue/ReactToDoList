@@ -4,12 +4,18 @@
     min-width: 95vh;
     min-height: 50px;
     box-sizing: border-box;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .textbox {
     width: 90%;
     height: 40px;
     box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .image-button {

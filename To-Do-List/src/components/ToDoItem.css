@@ -1,0 +1,39 @@
+.item_container {
+    display: flex;
+    align-items: center;
+    min-width: 95vh;
+    min-height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: rgb(133, 124, 165);
+    border-radius: 20px;
+}
+
+.checkbox {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.image-checkbox {
+    width: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+p {
+    font-size: x-large;
+    color: black;
+}
+
+.crossed-off {
+    text-decoration: line-through;
+    color: black; 
+}
